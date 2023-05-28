@@ -1,7 +1,12 @@
 #!/bin/bash
 
 calculate_fall_point() {
-  echo "0" > fp.txt
+  let POINT=1
+  let POINT=POINT*2
+  let POINT=POINT+3
+  let POINT=POINT*POINT
+  
+  echo "$POINT" > fp.txt
 }
 
 calculate_accident_fall_point() {
