@@ -13,7 +13,7 @@ calculate_flight_time() {
 }
 
 calculate_fuel() {
-  echo "0" > fuel.txt
+  echo "123" > fuel.txt
 }
 
 calculate_accident_fall_point
