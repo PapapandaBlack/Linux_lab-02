@@ -1,7 +1,9 @@
 #!/bin/bash
 
 calculate_accident_fall_point() {
+  let i=0
   let i=i+1
+  let i=i*2
   echo "$i" > accident_fp.txt
 }
 
