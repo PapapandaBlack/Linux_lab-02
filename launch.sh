@@ -10,7 +10,7 @@ simple_satellite_orbit() {
 }
 
 precise_satellite_orbit() {
-  let ORBIT=ORBIT*ORBIT*ORBIT
+  let ORBIT=ORBIT*ORBIT*ORBIT*ORBIT
 }
 
 calculate_satellite_orbit() {
