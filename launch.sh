@@ -10,6 +10,8 @@ calculate_satellite_orbit() {
 
 calculate_flight_time() {
   let ft=999
+  let einstein=3
+  let ft=ft+einstein
   echo "$ft" > flight-time.txt
 }
 
