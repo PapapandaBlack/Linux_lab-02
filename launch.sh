@@ -14,8 +14,6 @@ calculate_flight_time() {
   let ft=ft+einstein
   let something=7
   let ft=ft+something
-  let something_else=9
-  let ft=ft+something_else
   echo "$ft" > flight-time.txt
 }
 
