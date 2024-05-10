@@ -1,7 +1,10 @@
 #!/bin/bash
 
 calculate_accident_fall_point() {
-  echo "0" > accident_fp.txt
+  let i=0
+  let i=i+1
+  let i=i*2
+  echo "$i" > accident_fp.txt
 }
 
 simple_satellite_orbit() {
